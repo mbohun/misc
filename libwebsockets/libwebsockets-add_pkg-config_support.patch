@@ -1,0 +1,41 @@
+diff --git a/Makefile.am b/Makefile.am
+index 2191648..56daa9a 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -2,3 +2,6 @@
+ SUBDIRS=lib test-server
+ 
+ EXTRA_DIST=scripts/kernel-doc
++
++pkgconfigdir = $(libdir)/pkgconfig
++pkgconfig_DATA = libwebsockets.pc
+diff --git a/configure.ac b/configure.ac
+index 9acd2d5..5c2d726 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -125,6 +125,7 @@ AC_CHECK_FUNCS([bzero memset socket strerror])
+ 
+ AC_CONFIG_FILES([Makefile
+                  lib/Makefile
+-                 test-server/Makefile])
++                 test-server/Makefile
++                 libwebsockets.pc])
+ 
+ AC_OUTPUT
+diff --git a/libwebsockets.pc.in b/libwebsockets.pc.in
+new file mode 100644
+index 0000000..dd36acd
+--- /dev/null
++++ b/libwebsockets.pc.in
+@@ -0,0 +1,11 @@
++prefix=@prefix@
++exec_prefix=@exec_prefix@
++libdir=@libdir@
++includedir=${prefix}/include
++
++Name: @PACKAGE_NAME@
++Description: C Websockets Server Library
++URL: http://git.warmcat.com/cgi-bin/cgit/libwebsockets
++Version: @PACKAGE_VERSION@
++Cflags: -I${includedir}
++Libs: -L${libdir} -lwebsockets
