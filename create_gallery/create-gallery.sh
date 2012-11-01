@@ -67,7 +67,7 @@ function process_subdir() {
     done
 
     echo "
-      <a class=\"back_link\" href=\"../index.html\">Back to main galery page.</a>
+      <a class=\"back_link\" href=\"../index.html\">Back to main gallery page.</a>
    </body>
 </html>
 
