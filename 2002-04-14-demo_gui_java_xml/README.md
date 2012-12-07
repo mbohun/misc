@@ -1,9 +1,10 @@
 # DEMO Dynamically generated GUI
 (c) 2000 - 2002 by Martin Bohun
 
-- java
+- Java (jdk 1.2+)
 - javax.swing.*
-- [Apache Xerces for Java XML Parser](http://projects.apache.org/projects/xerces_for_java_xml_parser.html)
+- [Apache Xerces for Java XML Parser](http://projects.apache.org/projects/xerces_for_java_xml_parser.html) (SAX)
+- SUN Solaris, MS Windows NT 4.0 / 2000
 
 ## Figure 1.
 Most of the widgets the GUIs consists of are constructed from external config files (mostly in XML), the XML file (right) describes the structure of the tree browser (left). The XML config files are parsed/read (using
