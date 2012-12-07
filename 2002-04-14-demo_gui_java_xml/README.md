@@ -3,7 +3,7 @@
 
 - java
 - javax.swing.*
-- XML (xerces, sax)
+- [Apache Xerces for Java XML Parser](http://projects.apache.org/projects/xerces_for_java_xml_parser.html)
 
 ## Figure 1.
 Most of the widgets the GUIs consists of are constructed from external config files (mostly in XML), the XML file (right) describes the structure of the tree browser (left). The XML config files are parsed/read (using
