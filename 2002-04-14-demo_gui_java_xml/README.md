@@ -91,3 +91,9 @@ add, insert, edit, remove in action...
 This figure shows again the generic ArrayElement widget but this time deployed as a part of a differen binary structure - this array consists of more complex data type than just a simple string like the previous example. 
 
 ![Alt text](https://raw.github.com/mbohun/misc/master/2002-04-14-demo_gui_java_xml/array_element_add_dialog_diff.gif "ArrayElement - more complex example")
+
+ ---
+
+## misc figures/diagrams i created back in 2000 - 2001 but haven't used/included in the 'final' version of index.html from 2002
+![Alt text](https://raw.github.com/mbohun/misc/master/2002-04-14-demo_gui_java_xml/gui_design_modular.gif "modular GUI app design")
+![Alt text](https://raw.github.com/mbohun/misc/master/2002-04-14-demo_gui_java_xml/gui_design_plugins.gif "modular GUI app impl. concept - plugins for diff GUI libs & frameworks")
