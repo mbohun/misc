@@ -1,8 +1,13 @@
+```
 # ~/.bash_profile
 #
 export JAVA_HOME=/usr/local/jdk
 export ANT_HOME=/usr/local/ant
 
+# for antialiased fonts
+#
+export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on"
+```
 ```
 martin@yobbo:/tmp/github-upload$ ls -la /usr/local/
 total 248
@@ -49,6 +54,3 @@ drwxr-xr-x  8 root   root   4096 Sep 25 14:27 jdk1.7.0_09/
 
 ```
 
-# for antialiased fonts
-#
-export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on"
