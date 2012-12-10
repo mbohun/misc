@@ -4,6 +4,8 @@
 export JAVA_HOME=/usr/local/jdk
 export ANT_HOME=/usr/local/ant
 
+export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$PATH
+
 # for antialiased fonts
 #
 export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on"
