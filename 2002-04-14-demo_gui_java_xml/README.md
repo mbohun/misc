@@ -1,6 +1,8 @@
 # DEMO Dynamically generated GUI
 (c) 2000 - 2002 by Martin Bohun
 
+Design & concepts I created while working for ERG in Perth, WA on Translink project for San Francisco public transport system.
+
 - Java (jdk 1.2+)
 - javax.swing.*
 - [Apache Xerces for Java XML Parser](http://projects.apache.org/projects/xerces_for_java_xml_parser.html) (SAX)
