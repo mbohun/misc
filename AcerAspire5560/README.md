@@ -635,3 +635,1051 @@
 	Kernel driver in use: ath9k
 
 ```
+
+# cpuid
+```
+CPU 0:
+   vendor_id = "AuthenticAMD"
+   version information (1/eax):
+      processor type  = primary processor (0)
+      family          = Intel Pentium 4/Pentium D/Pentium Extreme Edition/Celeron/Xeon/Xeon MP/Itanium2, AMD Athlon 64/Athlon XP-M/Opteron/Sempron/Turion (15)
+      model           = 0x1 (1)
+      stepping id     = 0x0 (0)
+      extended family = 0x3 (3)
+      extended model  = 0x0 (0)
+      (simple synth)  = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   miscellaneous (1/ebx):
+      process local APIC physical ID = 0x0 (0)
+      cpu count                      = 0x4 (4)
+      CLFLUSH line size              = 0x8 (8)
+      brand index                    = 0x0 (0)
+   brand id = 0x00 (0): unknown
+   feature information (1/edx):
+      x87 FPU on chip                        = true
+      virtual-8086 mode enhancement          = true
+      debugging extensions                   = true
+      page size extensions                   = true
+      time stamp counter                     = true
+      RDMSR and WRMSR support                = true
+      physical address extensions            = true
+      machine check exception                = true
+      CMPXCHG8B inst.                        = true
+      APIC on chip                           = true
+      SYSENTER and SYSEXIT                   = true
+      memory type range registers            = true
+      PTE global bit                         = true
+      machine check architecture             = true
+      conditional move/compare instruction   = true
+      page attribute table                   = true
+      page size extension                    = true
+      processor serial number                = false
+      CLFLUSH instruction                    = true
+      debug store                            = false
+      thermal monitor and clock ctrl         = false
+      MMX Technology                         = true
+      FXSAVE/FXRSTOR                         = true
+      SSE extensions                         = true
+      SSE2 extensions                        = true
+      self snoop                             = false
+      hyper-threading / multi-core supported = true
+      therm. monitor                         = false
+      IA64                                   = false
+      pending break event                    = false
+   feature information (1/ecx):
+      PNI/SSE3: Prescott New Instructions     = true
+      PCLMULDQ instruction                    = false
+      64-bit debug store                      = false
+      MONITOR/MWAIT                           = true
+      CPL-qualified debug store               = false
+      VMX: virtual machine extensions         = false
+      SMX: safer mode extensions              = false
+      Enhanced Intel SpeedStep Technology     = false
+      thermal monitor 2                       = false
+      SSSE3 extensions                        = false
+      context ID: adaptive or shared L1 data  = false
+      FMA instruction                         = false
+      CMPXCHG16B instruction                  = true
+      xTPR disable                            = false
+      perfmon and debug                       = false
+      process context identifiers             = false
+      direct cache access                     = false
+      SSE4.1 extensions                       = false
+      SSE4.2 extensions                       = false
+      extended xAPIC support                  = false
+      MOVBE instruction                       = false
+      POPCNT instruction                      = true
+      time stamp counter deadline             = false
+      AES instruction                         = false
+      XSAVE/XSTOR states                      = false
+      OS-enabled XSAVE/XSTOR                  = false
+      AVX: advanced vector extensions         = false
+      F16C half-precision convert instruction = false
+      RDRAND instruction                      = false
+      hypervisor guest status                 = false
+   cache and TLB information (2):
+   processor serial number: 0030-0F10-0000-0000-0000-0000
+   MONITOR/MWAIT (5):
+      smallest monitor-line size (bytes)       = 0x40 (64)
+      largest monitor-line size (bytes)        = 0x40 (64)
+      enum of Monitor-MWAIT exts supported     = true
+      supports intrs as break-event for MWAIT  = true
+      number of C0 sub C-states using MWAIT    = 0x0 (0)
+      number of C1 sub C-states using MWAIT    = 0x0 (0)
+      number of C2 sub C-states using MWAIT    = 0x0 (0)
+      number of C3/C6 sub C-states using MWAIT = 0x0 (0)
+      number of C4/C7 sub C-states using MWAIT = 0x0 (0)
+   Thermal and Power Management Features (6):
+      digital thermometer                     = false
+      Intel Turbo Boost Technology            = false
+      ARAT always running APIC timer          = false
+      PLN power limit notification            = false
+      ECMD extended clock modulation duty     = false
+      PTM package thermal management          = false
+      digital thermometer thresholds          = 0x0 (0)
+      ACNT/MCNT supported performance measure = true
+      ACNT2 available                         = false
+      performance-energy bias capability      = false
+   hypervisor_id = "            "
+   extended processor signature (0x80000001/eax):
+      family/generation = AMD Athlon 64/Opteron/Sempron/Turion (15)
+      model             = 0x1 (1)
+      stepping id       = 0x0 (0)
+      extended family   = 0x3 (3)
+      extended model    = 0x0 (0)
+      (simple synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   extended feature flags (0x80000001/edx):
+      x87 FPU on chip                       = true
+      virtual-8086 mode enhancement         = true
+      debugging extensions                  = true
+      page size extensions                  = true
+      time stamp counter                    = true
+      RDMSR and WRMSR support               = true
+      physical address extensions           = true
+      machine check exception               = true
+      CMPXCHG8B inst.                       = true
+      APIC on chip                          = true
+      SYSCALL and SYSRET instructions       = true
+      memory type range registers           = true
+      global paging extension               = true
+      machine check architecture            = true
+      conditional move/compare instruction  = true
+      page attribute table                  = true
+      page size extension                   = true
+      multiprocessing capable               = false
+      no-execute page protection            = true
+      AMD multimedia instruction extensions = true
+      MMX Technology                        = true
+      FXSAVE/FXRSTOR                        = true
+      SSE extensions                        = true
+      1-GB large page support               = true
+      RDTSCP                                = true
+      long mode (AA-64)                     = true
+      3DNow! instruction extensions         = true
+      3DNow! instructions                   = true
+   extended brand id (0x80000001/ebx):
+      raw     = 0x10001951 (268441937)
+      BrandId = 0x1951 (6481)
+   AMD feature flags (0x80000001/ecx):
+      LAHF/SAHF supported in 64-bit mode = true
+      CMP Legacy                         = true
+      SVM: secure virtual machine        = true
+      extended APIC space                = true
+      AltMovCr8                          = true
+      LZCNT advanced bit manipulation    = true
+      SSE4A support                      = true
+      misaligned SSE mode                = true
+      PREFETCH/PREFETCHW instructions    = true
+      OS visible workaround              = true
+      instruction based sampling         = true
+      XOP support                        = false
+      SKINIT/STGI support                = true
+      watchdog timer support             = true
+      lightweight profiling support      = false
+      4-operand FMA instruction          = false
+      NodeId MSR C001100C                = false
+      TBM support                        = false
+      topology extensions                = false
+   brand = "AMD A6-3420M APU with Radeon(tm) HD Graphics"
+   L1 TLB/cache information: 2M/4M pages & L1 TLB (0x80000005/eax):
+      instruction # entries     = 0x10 (16)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 TLB/cache information: 4K pages & L1 TLB (0x80000005/ebx):
+      instruction # entries     = 0x20 (32)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 data cache information (0x80000005/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L1 instruction cache information (0x80000005/edx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L2 TLB/cache information: 2M/4M pages & L2 TLB (0x80000006/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x80 (128)
+      data associativity        = 2-way (2)
+   L2 TLB/cache information: 4K pages & L2 TLB (0x80000006/ebx):
+      instruction # entries     = 0x200 (512)
+      instruction associativity = 4-way (4)
+      data # entries            = 0x400 (1024)
+      data associativity        = 4-way (4)
+   L2 unified cache information (0x80000006/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 16-way (8)
+      size (Kb)         = 0x400 (1024)
+   L3 cache information (0x80000006/edx):
+      line size (bytes)     = 0x0 (0)
+      lines per tag         = 0x0 (0)
+      associativity         = L2 off (0)
+      size (in 512Kb units) = 0x0 (0)
+   Advanced Power Management Features (0x80000007/edx):
+      temperature sensing diode      = true
+      frequency ID (FID) control     = false
+      voltage ID (VID) control       = false
+      thermal trip (TTP)             = true
+      thermal monitor (TM)           = true
+      software thermal control (STC) = true
+      100 MHz multiplier control     = true
+      hardware P-State control       = true
+      TscInvariant                   = true
+   Physical Address and Linear Address Size (0x80000008/eax):
+      maximum physical address bits         = 0x28 (40)
+      maximum linear (virtual) address bits = 0x30 (48)
+      maximum guest physical address bits   = 0x0 (0)
+   Logical CPU cores (0x80000008/ecx):
+      number of CPU cores - 1 = 0x3 (3)
+      ApicIdCoreIdSize        = 0x2 (2)
+   SVM Secure Virtual Machine (0x8000000a/eax):
+      SvmRev: SVM revision = 0x1 (1)
+   SVM Secure Virtual Machine (0x8000000a/edx):
+      nested paging                 = true
+      LBR virtualization            = true
+      SVM lock                      = true
+      NRIP save                     = true
+      MSR based TSC rate control    = false
+      VMCB clean bits support       = false
+      flush by ASID                 = false
+      decode assists                = false
+      SSSE3/SSE5 opcode set disable = false
+      pause intercept filter        = true
+      pause filter threshold        = false
+   NASID: number of address space identifiers = 0x40 (64):
+   L1 TLB information: 1G pages (0x80000019/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x30 (48)
+      data associativity        = full (15)
+   L2 TLB information: 1G pages (0x80000019/ebx):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x10 (16)
+      data associativity        = 8-way (6)
+   SVM Secure Virtual Machine (0x8000001a/eax):
+      128-bit SSE executed full-width = true
+      MOVU* better than MOVL*/MOVH*   = true
+   Instruction Based Sampling Identifiers (0x8000001b/eax):
+      IBS feature flags valid              = true
+      IBS fetch sampling                   = true
+      IBS execution sampling               = true
+      read write of op counter             = true
+      op counting mode                     = true
+      branch target address reporting      = true
+      IbsOpCurCnt and IbsOpMaxCnt extend 7 = true
+      invalid RIP indication supported     = true
+   (multi-processing synth): multi-core (c=4)
+   (multi-processing method): AMD
+   (APIC widths synth): CORE_width=2 SMT_width=0
+   (APIC synth): PKG_ID=0 CORE_ID=0 SMT_ID=0
+   (synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+CPU 1:
+   vendor_id = "AuthenticAMD"
+   version information (1/eax):
+      processor type  = primary processor (0)
+      family          = Intel Pentium 4/Pentium D/Pentium Extreme Edition/Celeron/Xeon/Xeon MP/Itanium2, AMD Athlon 64/Athlon XP-M/Opteron/Sempron/Turion (15)
+      model           = 0x1 (1)
+      stepping id     = 0x0 (0)
+      extended family = 0x3 (3)
+      extended model  = 0x0 (0)
+      (simple synth)  = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   miscellaneous (1/ebx):
+      process local APIC physical ID = 0x1 (1)
+      cpu count                      = 0x4 (4)
+      CLFLUSH line size              = 0x8 (8)
+      brand index                    = 0x0 (0)
+   brand id = 0x00 (0): unknown
+   feature information (1/edx):
+      x87 FPU on chip                        = true
+      virtual-8086 mode enhancement          = true
+      debugging extensions                   = true
+      page size extensions                   = true
+      time stamp counter                     = true
+      RDMSR and WRMSR support                = true
+      physical address extensions            = true
+      machine check exception                = true
+      CMPXCHG8B inst.                        = true
+      APIC on chip                           = true
+      SYSENTER and SYSEXIT                   = true
+      memory type range registers            = true
+      PTE global bit                         = true
+      machine check architecture             = true
+      conditional move/compare instruction   = true
+      page attribute table                   = true
+      page size extension                    = true
+      processor serial number                = false
+      CLFLUSH instruction                    = true
+      debug store                            = false
+      thermal monitor and clock ctrl         = false
+      MMX Technology                         = true
+      FXSAVE/FXRSTOR                         = true
+      SSE extensions                         = true
+      SSE2 extensions                        = true
+      self snoop                             = false
+      hyper-threading / multi-core supported = true
+      therm. monitor                         = false
+      IA64                                   = false
+      pending break event                    = false
+   feature information (1/ecx):
+      PNI/SSE3: Prescott New Instructions     = true
+      PCLMULDQ instruction                    = false
+      64-bit debug store                      = false
+      MONITOR/MWAIT                           = true
+      CPL-qualified debug store               = false
+      VMX: virtual machine extensions         = false
+      SMX: safer mode extensions              = false
+      Enhanced Intel SpeedStep Technology     = false
+      thermal monitor 2                       = false
+      SSSE3 extensions                        = false
+      context ID: adaptive or shared L1 data  = false
+      FMA instruction                         = false
+      CMPXCHG16B instruction                  = true
+      xTPR disable                            = false
+      perfmon and debug                       = false
+      process context identifiers             = false
+      direct cache access                     = false
+      SSE4.1 extensions                       = false
+      SSE4.2 extensions                       = false
+      extended xAPIC support                  = false
+      MOVBE instruction                       = false
+      POPCNT instruction                      = true
+      time stamp counter deadline             = false
+      AES instruction                         = false
+      XSAVE/XSTOR states                      = false
+      OS-enabled XSAVE/XSTOR                  = false
+      AVX: advanced vector extensions         = false
+      F16C half-precision convert instruction = false
+      RDRAND instruction                      = false
+      hypervisor guest status                 = false
+   cache and TLB information (2):
+   processor serial number: 0030-0F10-0000-0000-0000-0000
+   MONITOR/MWAIT (5):
+      smallest monitor-line size (bytes)       = 0x40 (64)
+      largest monitor-line size (bytes)        = 0x40 (64)
+      enum of Monitor-MWAIT exts supported     = true
+      supports intrs as break-event for MWAIT  = true
+      number of C0 sub C-states using MWAIT    = 0x0 (0)
+      number of C1 sub C-states using MWAIT    = 0x0 (0)
+      number of C2 sub C-states using MWAIT    = 0x0 (0)
+      number of C3/C6 sub C-states using MWAIT = 0x0 (0)
+      number of C4/C7 sub C-states using MWAIT = 0x0 (0)
+   Thermal and Power Management Features (6):
+      digital thermometer                     = false
+      Intel Turbo Boost Technology            = false
+      ARAT always running APIC timer          = false
+      PLN power limit notification            = false
+      ECMD extended clock modulation duty     = false
+      PTM package thermal management          = false
+      digital thermometer thresholds          = 0x0 (0)
+      ACNT/MCNT supported performance measure = true
+      ACNT2 available                         = false
+      performance-energy bias capability      = false
+   hypervisor_id = "            "
+   extended processor signature (0x80000001/eax):
+      family/generation = AMD Athlon 64/Opteron/Sempron/Turion (15)
+      model             = 0x1 (1)
+      stepping id       = 0x0 (0)
+      extended family   = 0x3 (3)
+      extended model    = 0x0 (0)
+      (simple synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   extended feature flags (0x80000001/edx):
+      x87 FPU on chip                       = true
+      virtual-8086 mode enhancement         = true
+      debugging extensions                  = true
+      page size extensions                  = true
+      time stamp counter                    = true
+      RDMSR and WRMSR support               = true
+      physical address extensions           = true
+      machine check exception               = true
+      CMPXCHG8B inst.                       = true
+      APIC on chip                          = true
+      SYSCALL and SYSRET instructions       = true
+      memory type range registers           = true
+      global paging extension               = true
+      machine check architecture            = true
+      conditional move/compare instruction  = true
+      page attribute table                  = true
+      page size extension                   = true
+      multiprocessing capable               = false
+      no-execute page protection            = true
+      AMD multimedia instruction extensions = true
+      MMX Technology                        = true
+      FXSAVE/FXRSTOR                        = true
+      SSE extensions                        = true
+      1-GB large page support               = true
+      RDTSCP                                = true
+      long mode (AA-64)                     = true
+      3DNow! instruction extensions         = true
+      3DNow! instructions                   = true
+   extended brand id (0x80000001/ebx):
+      raw     = 0x10001951 (268441937)
+      BrandId = 0x1951 (6481)
+   AMD feature flags (0x80000001/ecx):
+      LAHF/SAHF supported in 64-bit mode = true
+      CMP Legacy                         = true
+      SVM: secure virtual machine        = true
+      extended APIC space                = true
+      AltMovCr8                          = true
+      LZCNT advanced bit manipulation    = true
+      SSE4A support                      = true
+      misaligned SSE mode                = true
+      PREFETCH/PREFETCHW instructions    = true
+      OS visible workaround              = true
+      instruction based sampling         = true
+      XOP support                        = false
+      SKINIT/STGI support                = true
+      watchdog timer support             = true
+      lightweight profiling support      = false
+      4-operand FMA instruction          = false
+      NodeId MSR C001100C                = false
+      TBM support                        = false
+      topology extensions                = false
+   brand = "AMD A6-3420M APU with Radeon(tm) HD Graphics"
+   L1 TLB/cache information: 2M/4M pages & L1 TLB (0x80000005/eax):
+      instruction # entries     = 0x10 (16)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 TLB/cache information: 4K pages & L1 TLB (0x80000005/ebx):
+      instruction # entries     = 0x20 (32)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 data cache information (0x80000005/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L1 instruction cache information (0x80000005/edx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L2 TLB/cache information: 2M/4M pages & L2 TLB (0x80000006/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x80 (128)
+      data associativity        = 2-way (2)
+   L2 TLB/cache information: 4K pages & L2 TLB (0x80000006/ebx):
+      instruction # entries     = 0x200 (512)
+      instruction associativity = 4-way (4)
+      data # entries            = 0x400 (1024)
+      data associativity        = 4-way (4)
+   L2 unified cache information (0x80000006/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 16-way (8)
+      size (Kb)         = 0x400 (1024)
+   L3 cache information (0x80000006/edx):
+      line size (bytes)     = 0x0 (0)
+      lines per tag         = 0x0 (0)
+      associativity         = L2 off (0)
+      size (in 512Kb units) = 0x0 (0)
+   Advanced Power Management Features (0x80000007/edx):
+      temperature sensing diode      = true
+      frequency ID (FID) control     = false
+      voltage ID (VID) control       = false
+      thermal trip (TTP)             = true
+      thermal monitor (TM)           = true
+      software thermal control (STC) = true
+      100 MHz multiplier control     = true
+      hardware P-State control       = true
+      TscInvariant                   = true
+   Physical Address and Linear Address Size (0x80000008/eax):
+      maximum physical address bits         = 0x28 (40)
+      maximum linear (virtual) address bits = 0x30 (48)
+      maximum guest physical address bits   = 0x0 (0)
+   Logical CPU cores (0x80000008/ecx):
+      number of CPU cores - 1 = 0x3 (3)
+      ApicIdCoreIdSize        = 0x2 (2)
+   SVM Secure Virtual Machine (0x8000000a/eax):
+      SvmRev: SVM revision = 0x1 (1)
+   SVM Secure Virtual Machine (0x8000000a/edx):
+      nested paging                 = true
+      LBR virtualization            = true
+      SVM lock                      = true
+      NRIP save                     = true
+      MSR based TSC rate control    = false
+      VMCB clean bits support       = false
+      flush by ASID                 = false
+      decode assists                = false
+      SSSE3/SSE5 opcode set disable = false
+      pause intercept filter        = true
+      pause filter threshold        = false
+   NASID: number of address space identifiers = 0x40 (64):
+   L1 TLB information: 1G pages (0x80000019/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x30 (48)
+      data associativity        = full (15)
+   L2 TLB information: 1G pages (0x80000019/ebx):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x10 (16)
+      data associativity        = 8-way (6)
+   SVM Secure Virtual Machine (0x8000001a/eax):
+      128-bit SSE executed full-width = true
+      MOVU* better than MOVL*/MOVH*   = true
+   Instruction Based Sampling Identifiers (0x8000001b/eax):
+      IBS feature flags valid              = true
+      IBS fetch sampling                   = true
+      IBS execution sampling               = true
+      read write of op counter             = true
+      op counting mode                     = true
+      branch target address reporting      = true
+      IbsOpCurCnt and IbsOpMaxCnt extend 7 = true
+      invalid RIP indication supported     = true
+   (multi-processing synth): multi-core (c=4)
+   (multi-processing method): AMD
+   (APIC widths synth): CORE_width=2 SMT_width=0
+   (APIC synth): PKG_ID=0 CORE_ID=1 SMT_ID=0
+   (synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+CPU 2:
+   vendor_id = "AuthenticAMD"
+   version information (1/eax):
+      processor type  = primary processor (0)
+      family          = Intel Pentium 4/Pentium D/Pentium Extreme Edition/Celeron/Xeon/Xeon MP/Itanium2, AMD Athlon 64/Athlon XP-M/Opteron/Sempron/Turion (15)
+      model           = 0x1 (1)
+      stepping id     = 0x0 (0)
+      extended family = 0x3 (3)
+      extended model  = 0x0 (0)
+      (simple synth)  = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   miscellaneous (1/ebx):
+      process local APIC physical ID = 0x2 (2)
+      cpu count                      = 0x4 (4)
+      CLFLUSH line size              = 0x8 (8)
+      brand index                    = 0x0 (0)
+   brand id = 0x00 (0): unknown
+   feature information (1/edx):
+      x87 FPU on chip                        = true
+      virtual-8086 mode enhancement          = true
+      debugging extensions                   = true
+      page size extensions                   = true
+      time stamp counter                     = true
+      RDMSR and WRMSR support                = true
+      physical address extensions            = true
+      machine check exception                = true
+      CMPXCHG8B inst.                        = true
+      APIC on chip                           = true
+      SYSENTER and SYSEXIT                   = true
+      memory type range registers            = true
+      PTE global bit                         = true
+      machine check architecture             = true
+      conditional move/compare instruction   = true
+      page attribute table                   = true
+      page size extension                    = true
+      processor serial number                = false
+      CLFLUSH instruction                    = true
+      debug store                            = false
+      thermal monitor and clock ctrl         = false
+      MMX Technology                         = true
+      FXSAVE/FXRSTOR                         = true
+      SSE extensions                         = true
+      SSE2 extensions                        = true
+      self snoop                             = false
+      hyper-threading / multi-core supported = true
+      therm. monitor                         = false
+      IA64                                   = false
+      pending break event                    = false
+   feature information (1/ecx):
+      PNI/SSE3: Prescott New Instructions     = true
+      PCLMULDQ instruction                    = false
+      64-bit debug store                      = false
+      MONITOR/MWAIT                           = true
+      CPL-qualified debug store               = false
+      VMX: virtual machine extensions         = false
+      SMX: safer mode extensions              = false
+      Enhanced Intel SpeedStep Technology     = false
+      thermal monitor 2                       = false
+      SSSE3 extensions                        = false
+      context ID: adaptive or shared L1 data  = false
+      FMA instruction                         = false
+      CMPXCHG16B instruction                  = true
+      xTPR disable                            = false
+      perfmon and debug                       = false
+      process context identifiers             = false
+      direct cache access                     = false
+      SSE4.1 extensions                       = false
+      SSE4.2 extensions                       = false
+      extended xAPIC support                  = false
+      MOVBE instruction                       = false
+      POPCNT instruction                      = true
+      time stamp counter deadline             = false
+      AES instruction                         = false
+      XSAVE/XSTOR states                      = false
+      OS-enabled XSAVE/XSTOR                  = false
+      AVX: advanced vector extensions         = false
+      F16C half-precision convert instruction = false
+      RDRAND instruction                      = false
+      hypervisor guest status                 = false
+   cache and TLB information (2):
+   processor serial number: 0030-0F10-0000-0000-0000-0000
+   MONITOR/MWAIT (5):
+      smallest monitor-line size (bytes)       = 0x40 (64)
+      largest monitor-line size (bytes)        = 0x40 (64)
+      enum of Monitor-MWAIT exts supported     = true
+      supports intrs as break-event for MWAIT  = true
+      number of C0 sub C-states using MWAIT    = 0x0 (0)
+      number of C1 sub C-states using MWAIT    = 0x0 (0)
+      number of C2 sub C-states using MWAIT    = 0x0 (0)
+      number of C3/C6 sub C-states using MWAIT = 0x0 (0)
+      number of C4/C7 sub C-states using MWAIT = 0x0 (0)
+   Thermal and Power Management Features (6):
+      digital thermometer                     = false
+      Intel Turbo Boost Technology            = false
+      ARAT always running APIC timer          = false
+      PLN power limit notification            = false
+      ECMD extended clock modulation duty     = false
+      PTM package thermal management          = false
+      digital thermometer thresholds          = 0x0 (0)
+      ACNT/MCNT supported performance measure = true
+      ACNT2 available                         = false
+      performance-energy bias capability      = false
+   hypervisor_id = "            "
+   extended processor signature (0x80000001/eax):
+      family/generation = AMD Athlon 64/Opteron/Sempron/Turion (15)
+      model             = 0x1 (1)
+      stepping id       = 0x0 (0)
+      extended family   = 0x3 (3)
+      extended model    = 0x0 (0)
+      (simple synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   extended feature flags (0x80000001/edx):
+      x87 FPU on chip                       = true
+      virtual-8086 mode enhancement         = true
+      debugging extensions                  = true
+      page size extensions                  = true
+      time stamp counter                    = true
+      RDMSR and WRMSR support               = true
+      physical address extensions           = true
+      machine check exception               = true
+      CMPXCHG8B inst.                       = true
+      APIC on chip                          = true
+      SYSCALL and SYSRET instructions       = true
+      memory type range registers           = true
+      global paging extension               = true
+      machine check architecture            = true
+      conditional move/compare instruction  = true
+      page attribute table                  = true
+      page size extension                   = true
+      multiprocessing capable               = false
+      no-execute page protection            = true
+      AMD multimedia instruction extensions = true
+      MMX Technology                        = true
+      FXSAVE/FXRSTOR                        = true
+      SSE extensions                        = true
+      1-GB large page support               = true
+      RDTSCP                                = true
+      long mode (AA-64)                     = true
+      3DNow! instruction extensions         = true
+      3DNow! instructions                   = true
+   extended brand id (0x80000001/ebx):
+      raw     = 0x10001951 (268441937)
+      BrandId = 0x1951 (6481)
+   AMD feature flags (0x80000001/ecx):
+      LAHF/SAHF supported in 64-bit mode = true
+      CMP Legacy                         = true
+      SVM: secure virtual machine        = true
+      extended APIC space                = true
+      AltMovCr8                          = true
+      LZCNT advanced bit manipulation    = true
+      SSE4A support                      = true
+      misaligned SSE mode                = true
+      PREFETCH/PREFETCHW instructions    = true
+      OS visible workaround              = true
+      instruction based sampling         = true
+      XOP support                        = false
+      SKINIT/STGI support                = true
+      watchdog timer support             = true
+      lightweight profiling support      = false
+      4-operand FMA instruction          = false
+      NodeId MSR C001100C                = false
+      TBM support                        = false
+      topology extensions                = false
+   brand = "AMD A6-3420M APU with Radeon(tm) HD Graphics"
+   L1 TLB/cache information: 2M/4M pages & L1 TLB (0x80000005/eax):
+      instruction # entries     = 0x10 (16)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 TLB/cache information: 4K pages & L1 TLB (0x80000005/ebx):
+      instruction # entries     = 0x20 (32)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 data cache information (0x80000005/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L1 instruction cache information (0x80000005/edx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L2 TLB/cache information: 2M/4M pages & L2 TLB (0x80000006/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x80 (128)
+      data associativity        = 2-way (2)
+   L2 TLB/cache information: 4K pages & L2 TLB (0x80000006/ebx):
+      instruction # entries     = 0x200 (512)
+      instruction associativity = 4-way (4)
+      data # entries            = 0x400 (1024)
+      data associativity        = 4-way (4)
+   L2 unified cache information (0x80000006/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 16-way (8)
+      size (Kb)         = 0x400 (1024)
+   L3 cache information (0x80000006/edx):
+      line size (bytes)     = 0x0 (0)
+      lines per tag         = 0x0 (0)
+      associativity         = L2 off (0)
+      size (in 512Kb units) = 0x0 (0)
+   Advanced Power Management Features (0x80000007/edx):
+      temperature sensing diode      = true
+      frequency ID (FID) control     = false
+      voltage ID (VID) control       = false
+      thermal trip (TTP)             = true
+      thermal monitor (TM)           = true
+      software thermal control (STC) = true
+      100 MHz multiplier control     = true
+      hardware P-State control       = true
+      TscInvariant                   = true
+   Physical Address and Linear Address Size (0x80000008/eax):
+      maximum physical address bits         = 0x28 (40)
+      maximum linear (virtual) address bits = 0x30 (48)
+      maximum guest physical address bits   = 0x0 (0)
+   Logical CPU cores (0x80000008/ecx):
+      number of CPU cores - 1 = 0x3 (3)
+      ApicIdCoreIdSize        = 0x2 (2)
+   SVM Secure Virtual Machine (0x8000000a/eax):
+      SvmRev: SVM revision = 0x1 (1)
+   SVM Secure Virtual Machine (0x8000000a/edx):
+      nested paging                 = true
+      LBR virtualization            = true
+      SVM lock                      = true
+      NRIP save                     = true
+      MSR based TSC rate control    = false
+      VMCB clean bits support       = false
+      flush by ASID                 = false
+      decode assists                = false
+      SSSE3/SSE5 opcode set disable = false
+      pause intercept filter        = true
+      pause filter threshold        = false
+   NASID: number of address space identifiers = 0x40 (64):
+   L1 TLB information: 1G pages (0x80000019/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x30 (48)
+      data associativity        = full (15)
+   L2 TLB information: 1G pages (0x80000019/ebx):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x10 (16)
+      data associativity        = 8-way (6)
+   SVM Secure Virtual Machine (0x8000001a/eax):
+      128-bit SSE executed full-width = true
+      MOVU* better than MOVL*/MOVH*   = true
+   Instruction Based Sampling Identifiers (0x8000001b/eax):
+      IBS feature flags valid              = true
+      IBS fetch sampling                   = true
+      IBS execution sampling               = true
+      read write of op counter             = true
+      op counting mode                     = true
+      branch target address reporting      = true
+      IbsOpCurCnt and IbsOpMaxCnt extend 7 = true
+      invalid RIP indication supported     = true
+   (multi-processing synth): multi-core (c=4)
+   (multi-processing method): AMD
+   (APIC widths synth): CORE_width=2 SMT_width=0
+   (APIC synth): PKG_ID=0 CORE_ID=2 SMT_ID=0
+   (synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+CPU 3:
+   vendor_id = "AuthenticAMD"
+   version information (1/eax):
+      processor type  = primary processor (0)
+      family          = Intel Pentium 4/Pentium D/Pentium Extreme Edition/Celeron/Xeon/Xeon MP/Itanium2, AMD Athlon 64/Athlon XP-M/Opteron/Sempron/Turion (15)
+      model           = 0x1 (1)
+      stepping id     = 0x0 (0)
+      extended family = 0x3 (3)
+      extended model  = 0x0 (0)
+      (simple synth)  = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   miscellaneous (1/ebx):
+      process local APIC physical ID = 0x3 (3)
+      cpu count                      = 0x4 (4)
+      CLFLUSH line size              = 0x8 (8)
+      brand index                    = 0x0 (0)
+   brand id = 0x00 (0): unknown
+   feature information (1/edx):
+      x87 FPU on chip                        = true
+      virtual-8086 mode enhancement          = true
+      debugging extensions                   = true
+      page size extensions                   = true
+      time stamp counter                     = true
+      RDMSR and WRMSR support                = true
+      physical address extensions            = true
+      machine check exception                = true
+      CMPXCHG8B inst.                        = true
+      APIC on chip                           = true
+      SYSENTER and SYSEXIT                   = true
+      memory type range registers            = true
+      PTE global bit                         = true
+      machine check architecture             = true
+      conditional move/compare instruction   = true
+      page attribute table                   = true
+      page size extension                    = true
+      processor serial number                = false
+      CLFLUSH instruction                    = true
+      debug store                            = false
+      thermal monitor and clock ctrl         = false
+      MMX Technology                         = true
+      FXSAVE/FXRSTOR                         = true
+      SSE extensions                         = true
+      SSE2 extensions                        = true
+      self snoop                             = false
+      hyper-threading / multi-core supported = true
+      therm. monitor                         = false
+      IA64                                   = false
+      pending break event                    = false
+   feature information (1/ecx):
+      PNI/SSE3: Prescott New Instructions     = true
+      PCLMULDQ instruction                    = false
+      64-bit debug store                      = false
+      MONITOR/MWAIT                           = true
+      CPL-qualified debug store               = false
+      VMX: virtual machine extensions         = false
+      SMX: safer mode extensions              = false
+      Enhanced Intel SpeedStep Technology     = false
+      thermal monitor 2                       = false
+      SSSE3 extensions                        = false
+      context ID: adaptive or shared L1 data  = false
+      FMA instruction                         = false
+      CMPXCHG16B instruction                  = true
+      xTPR disable                            = false
+      perfmon and debug                       = false
+      process context identifiers             = false
+      direct cache access                     = false
+      SSE4.1 extensions                       = false
+      SSE4.2 extensions                       = false
+      extended xAPIC support                  = false
+      MOVBE instruction                       = false
+      POPCNT instruction                      = true
+      time stamp counter deadline             = false
+      AES instruction                         = false
+      XSAVE/XSTOR states                      = false
+      OS-enabled XSAVE/XSTOR                  = false
+      AVX: advanced vector extensions         = false
+      F16C half-precision convert instruction = false
+      RDRAND instruction                      = false
+      hypervisor guest status                 = false
+   cache and TLB information (2):
+   processor serial number: 0030-0F10-0000-0000-0000-0000
+   MONITOR/MWAIT (5):
+      smallest monitor-line size (bytes)       = 0x40 (64)
+      largest monitor-line size (bytes)        = 0x40 (64)
+      enum of Monitor-MWAIT exts supported     = true
+      supports intrs as break-event for MWAIT  = true
+      number of C0 sub C-states using MWAIT    = 0x0 (0)
+      number of C1 sub C-states using MWAIT    = 0x0 (0)
+      number of C2 sub C-states using MWAIT    = 0x0 (0)
+      number of C3/C6 sub C-states using MWAIT = 0x0 (0)
+      number of C4/C7 sub C-states using MWAIT = 0x0 (0)
+   Thermal and Power Management Features (6):
+      digital thermometer                     = false
+      Intel Turbo Boost Technology            = false
+      ARAT always running APIC timer          = false
+      PLN power limit notification            = false
+      ECMD extended clock modulation duty     = false
+      PTM package thermal management          = false
+      digital thermometer thresholds          = 0x0 (0)
+      ACNT/MCNT supported performance measure = true
+      ACNT2 available                         = false
+      performance-energy bias capability      = false
+   hypervisor_id = "            "
+   extended processor signature (0x80000001/eax):
+      family/generation = AMD Athlon 64/Opteron/Sempron/Turion (15)
+      model             = 0x1 (1)
+      stepping id       = 0x0 (0)
+      extended family   = 0x3 (3)
+      extended model    = 0x0 (0)
+      (simple synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+   extended feature flags (0x80000001/edx):
+      x87 FPU on chip                       = true
+      virtual-8086 mode enhancement         = true
+      debugging extensions                  = true
+      page size extensions                  = true
+      time stamp counter                    = true
+      RDMSR and WRMSR support               = true
+      physical address extensions           = true
+      machine check exception               = true
+      CMPXCHG8B inst.                       = true
+      APIC on chip                          = true
+      SYSCALL and SYSRET instructions       = true
+      memory type range registers           = true
+      global paging extension               = true
+      machine check architecture            = true
+      conditional move/compare instruction  = true
+      page attribute table                  = true
+      page size extension                   = true
+      multiprocessing capable               = false
+      no-execute page protection            = true
+      AMD multimedia instruction extensions = true
+      MMX Technology                        = true
+      FXSAVE/FXRSTOR                        = true
+      SSE extensions                        = true
+      1-GB large page support               = true
+      RDTSCP                                = true
+      long mode (AA-64)                     = true
+      3DNow! instruction extensions         = true
+      3DNow! instructions                   = true
+   extended brand id (0x80000001/ebx):
+      raw     = 0x10001951 (268441937)
+      BrandId = 0x1951 (6481)
+   AMD feature flags (0x80000001/ecx):
+      LAHF/SAHF supported in 64-bit mode = true
+      CMP Legacy                         = true
+      SVM: secure virtual machine        = true
+      extended APIC space                = true
+      AltMovCr8                          = true
+      LZCNT advanced bit manipulation    = true
+      SSE4A support                      = true
+      misaligned SSE mode                = true
+      PREFETCH/PREFETCHW instructions    = true
+      OS visible workaround              = true
+      instruction based sampling         = true
+      XOP support                        = false
+      SKINIT/STGI support                = true
+      watchdog timer support             = true
+      lightweight profiling support      = false
+      4-operand FMA instruction          = false
+      NodeId MSR C001100C                = false
+      TBM support                        = false
+      topology extensions                = false
+   brand = "AMD A6-3420M APU with Radeon(tm) HD Graphics"
+   L1 TLB/cache information: 2M/4M pages & L1 TLB (0x80000005/eax):
+      instruction # entries     = 0x10 (16)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 TLB/cache information: 4K pages & L1 TLB (0x80000005/ebx):
+      instruction # entries     = 0x20 (32)
+      instruction associativity = 0xff (255)
+      data # entries            = 0x30 (48)
+      data associativity        = 0xff (255)
+   L1 data cache information (0x80000005/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L1 instruction cache information (0x80000005/edx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 0x2 (2)
+      size (Kb)         = 0x40 (64)
+   L2 TLB/cache information: 2M/4M pages & L2 TLB (0x80000006/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x80 (128)
+      data associativity        = 2-way (2)
+   L2 TLB/cache information: 4K pages & L2 TLB (0x80000006/ebx):
+      instruction # entries     = 0x200 (512)
+      instruction associativity = 4-way (4)
+      data # entries            = 0x400 (1024)
+      data associativity        = 4-way (4)
+   L2 unified cache information (0x80000006/ecx):
+      line size (bytes) = 0x40 (64)
+      lines per tag     = 0x1 (1)
+      associativity     = 16-way (8)
+      size (Kb)         = 0x400 (1024)
+   L3 cache information (0x80000006/edx):
+      line size (bytes)     = 0x0 (0)
+      lines per tag         = 0x0 (0)
+      associativity         = L2 off (0)
+      size (in 512Kb units) = 0x0 (0)
+   Advanced Power Management Features (0x80000007/edx):
+      temperature sensing diode      = true
+      frequency ID (FID) control     = false
+      voltage ID (VID) control       = false
+      thermal trip (TTP)             = true
+      thermal monitor (TM)           = true
+      software thermal control (STC) = true
+      100 MHz multiplier control     = true
+      hardware P-State control       = true
+      TscInvariant                   = true
+   Physical Address and Linear Address Size (0x80000008/eax):
+      maximum physical address bits         = 0x28 (40)
+      maximum linear (virtual) address bits = 0x30 (48)
+      maximum guest physical address bits   = 0x0 (0)
+   Logical CPU cores (0x80000008/ecx):
+      number of CPU cores - 1 = 0x3 (3)
+      ApicIdCoreIdSize        = 0x2 (2)
+   SVM Secure Virtual Machine (0x8000000a/eax):
+      SvmRev: SVM revision = 0x1 (1)
+   SVM Secure Virtual Machine (0x8000000a/edx):
+      nested paging                 = true
+      LBR virtualization            = true
+      SVM lock                      = true
+      NRIP save                     = true
+      MSR based TSC rate control    = false
+      VMCB clean bits support       = false
+      flush by ASID                 = false
+      decode assists                = false
+      SSSE3/SSE5 opcode set disable = false
+      pause intercept filter        = true
+      pause filter threshold        = false
+   NASID: number of address space identifiers = 0x40 (64):
+   L1 TLB information: 1G pages (0x80000019/eax):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x30 (48)
+      data associativity        = full (15)
+   L2 TLB information: 1G pages (0x80000019/ebx):
+      instruction # entries     = 0x0 (0)
+      instruction associativity = L2 off (0)
+      data # entries            = 0x10 (16)
+      data associativity        = 8-way (6)
+   SVM Secure Virtual Machine (0x8000001a/eax):
+      128-bit SSE executed full-width = true
+      MOVU* better than MOVL*/MOVH*   = true
+   Instruction Based Sampling Identifiers (0x8000001b/eax):
+      IBS feature flags valid              = true
+      IBS fetch sampling                   = true
+      IBS execution sampling               = true
+      read write of op counter             = true
+      op counting mode                     = true
+      branch target address reporting      = true
+      IbsOpCurCnt and IbsOpMaxCnt extend 7 = true
+      invalid RIP indication supported     = true
+   (multi-processing synth): multi-core (c=4)
+   (multi-processing method): AMD
+   (APIC widths synth): CORE_width=2 SMT_width=0
+   (APIC synth): PKG_ID=0 CORE_ID=3 SMT_ID=0
+   (synth) = AMD Sempron Dual-Core (Llano LN-B0) / Athlon II Dual-Core (Llano LN-B0) / A-Series (Llano LN-B0) / E2-Series (Llano LN-B0), 32nm
+```
