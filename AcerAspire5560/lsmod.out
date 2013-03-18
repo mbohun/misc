@@ -1,0 +1,46 @@
+Module                  Size  Used by
+f2fs                  114313  0 
+fuse                   77970  3 
+nf_conntrack_netbios_ns    12665  0 
+nf_conntrack_broadcast    12527  1 nf_conntrack_netbios_ns
+xt_state               12578  15 
+xt_nat                 12681  3 
+iptable_nat            13011  1 
+nf_conntrack_ipv4      14808  16 
+nf_defrag_ipv4         12673  1 nf_conntrack_ipv4
+nf_nat_ipv4            13199  1 iptable_nat
+nf_nat                 25641  3 nf_nat_ipv4,xt_nat,iptable_nat
+nf_conntrack           84243  7 nf_conntrack_netbios_ns,nf_nat,xt_state,nf_nat_ipv4,nf_conntrack_broadcast,iptable_nat,nf_conntrack_ipv4
+xt_mark                12563  9 
+iptable_mangle         12695  1 
+vfat                   17461  1 
+fat                    56451  1 vfat
+arc4                   12615  2 
+ath9k                 110140  0 
+ath9k_common           13648  1 ath9k
+ath9k_hw              387482  2 ath9k_common,ath9k
+ath                    23142  3 ath9k_common,ath9k,ath9k_hw
+mac80211              595177  1 ath9k
+kvm_amd                59705  0 
+uvcvideo               80883  0 
+kvm                   438167  1 kvm_amd
+fglrx                5276830  109 
+cfg80211              508198  3 ath,ath9k,mac80211
+videobuf2_vmalloc      13163  1 uvcvideo
+videobuf2_memops       13161  1 videobuf2_vmalloc
+videobuf2_core         38816  1 uvcvideo
+videodev              120947  2 uvcvideo,videobuf2_core
+media                  20444  2 uvcvideo,videodev
+acer_wmi               32547  0 
+i2c_piix4              22106  0 
+video                  18991  1 acer_wmi
+sparse_keymap          13526  1 acer_wmi
+amd_iommu_v2           18744  1 fglrx
+led_class              13578  2 ath9k,acer_wmi
+i2c_core               38353  2 i2c_piix4,videodev
+joydev                 17377  0 
+k10temp                13126  0 
+pcspkr                 12718  0 
+wmi                    18697  1 acer_wmi
+uinput                 17614  0 
+ohci_hcd               33055  0 
