@@ -1,0 +1,70 @@
+Module                  Size  Used by
+usb_storage            56124  1 
+fglrx                5280806  144 
+amd_iommu_v2           18744  1 fglrx
+fuse                   77970  3 
+xt_nat                 12681  3 
+nf_conntrack_netbios_ns    12665  0 
+iptable_nat            13011  1 
+nf_conntrack_broadcast    12527  1 nf_conntrack_netbios_ns
+nf_nat_ipv4            13199  1 iptable_nat
+bnep                   19701  2 
+nf_nat                 25641  3 nf_nat_ipv4,xt_nat,iptable_nat
+bluetooth             359871  7 bnep
+iptable_mangle         12695  1 
+ip6t_REJECT            12939  2 
+nf_conntrack_ipv4      14808  16 
+nf_conntrack_ipv6      18782  13 
+nf_defrag_ipv6         18205  1 nf_conntrack_ipv6
+nf_defrag_ipv4         12673  1 nf_conntrack_ipv4
+xt_state               12578  28 
+ip6table_filter        12815  1 
+nf_conntrack           84243  8 nf_conntrack_netbios_ns,nf_nat,xt_state,nf_nat_ipv4,nf_conntrack_broadcast,iptable_nat,nf_conntrack_ipv4,nf_conntrack_ipv6
+ip6_tables             26808  1 ip6table_filter
+xt_mark                12563  9 
+vfat                   17461  2 
+fat                    56451  1 vfat
+snd_hda_codec_realtek    78433  1 
+snd_hda_codec_hdmi     36748  1 
+arc4                   12615  2 
+ath9k                 150073  0 
+ath9k_common           13648  1 ath9k
+ath9k_hw              408113  2 ath9k_common,ath9k
+snd_hda_intel          43715  1 
+snd_hda_codec         132514  3 snd_hda_codec_realtek,snd_hda_codec_hdmi,snd_hda_intel
+snd_hwdep              17650  1 snd_hda_codec
+uvcvideo               80924  0 
+videobuf2_vmalloc      13163  1 uvcvideo
+videobuf2_memops       13161  1 videobuf2_vmalloc
+videobuf2_core         38816  1 uvcvideo
+videodev              120947  2 uvcvideo,videobuf2_core
+snd_seq                64877  0 
+snd_seq_device         14136  1 snd_seq
+ath                    23142  3 ath9k_common,ath9k,ath9k_hw
+snd_pcm               102100  3 snd_hda_codec_hdmi,snd_hda_codec,snd_hda_intel
+media                  20444  2 uvcvideo,videodev
+mac80211              578735  1 ath9k
+cfg80211              495993  3 ath,ath9k,mac80211
+i2c_piix4              22106  0 
+i2c_core               38353  2 i2c_piix4,videodev
+snd_page_alloc         18268  2 snd_pcm,snd_hda_intel
+snd_timer              28690  2 snd_pcm,snd_seq
+snd                    79379  11 snd_hda_codec_realtek,snd_hwdep,snd_timer,snd_hda_codec_hdmi,snd_pcm,snd_seq,snd_hda_codec,snd_hda_intel,snd_seq_device
+k10temp                13126  0 
+tg3                   157745  0 
+acer_wmi               32547  0 
+ptp                    18413  1 tg3
+pps_core               18854  1 ptp
+sparse_keymap          13526  1 acer_wmi
+rfkill                 21736  5 cfg80211,acer_wmi,bluetooth
+soundcore              14491  1 snd
+kvm_amd                59705  0 
+kvm                   438094  1 kvm_amd
+microcode              23448  0 
+uinput                 17614  0 
+mmc_block              27067  1 
+sdhci_pci              18660  0 
+sdhci                  37876  1 sdhci_pci
+mmc_core              107478  2 mmc_block,sdhci
+wmi                    18697  1 acer_wmi
+video                  18991  1 acer_wmi
