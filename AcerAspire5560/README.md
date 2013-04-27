@@ -1,6 +1,6 @@
 # acer ASPIRE 5560
 
-![Alt text](https://raw.github.com/mbohun/misc/master/AcerAspire5560/AcerAspire5560G.jpg "Acer Aspire 5560G")
+![Alt text](https://raw.github.com/mbohun/misc/master/AcerAspire5560/AcerAspire5560Gs.jpg "Acer Aspire 5560G")
 
 `$ sudo lspci`
 ```
