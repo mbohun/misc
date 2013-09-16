@@ -2,6 +2,15 @@
 add `zswap.enabled=1` to the boot kernel args for enabling zswap
 
 ```
+[martin@firewolf ~]$ cat /sys/module/zswap/parameters/max_pool_percent
+50
+```
+
+```
+[root@firewolf martin]# echo 50 > /sys/module/zswap/parameters/max_pool_percent
+```
+
+```
 [root@firewolf martin]# grep '^.*$' /sys/kernel/debug/zswap/*
 /sys/kernel/debug/zswap/duplicate_entry:0
 /sys/kernel/debug/zswap/pool_limit_hit:0
