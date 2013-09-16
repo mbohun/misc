@@ -2,12 +2,12 @@
 add `zswap.enabled=1` to the boot kernel args for enabling zswap
 
 ```
-[martin@firewolf ~]$ cat /sys/module/zswap/parameters/max_pool_percent
-50
+[root@firewolf martin]# echo 50 > /sys/module/zswap/parameters/max_pool_percent
 ```
 
 ```
-[root@firewolf martin]# echo 50 > /sys/module/zswap/parameters/max_pool_percent
+[martin@firewolf ~]$ cat /sys/module/zswap/parameters/max_pool_percent
+50
 ```
 
 ```
