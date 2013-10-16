@@ -1,4 +1,4 @@
-'''
+```
 name of display: :0
 display: :0  screen: 0
 direct rendering: Yes
@@ -320,4 +320,4 @@ OpenGL extensions:
 0x0cb  0 tc  0  32  0    y .  11 11 10  0 .  .  0 24  0  0  0  0  0  0 0 None
 0x0cb  0 tc  0  32  0    . .  11 11 10  0 .  .  0 24  0  0  0  0  0  0 0 None
 
-'''
+```
