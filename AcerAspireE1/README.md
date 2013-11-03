@@ -1,3 +1,14 @@
+# acer ASPIRE E1-572
+
+![Alt text](https://raw.github.com/mbohun/misc/master/AcerAspireE1/doc/AcerAspireE1s.png "Acer Aspire E1-572")
+
+`$ sudo lspci`
+```
+
+```
+
+ ---
+
 Access an EFI Partition
 
 At a command prompt, type mountvol drive letter: /s, and then press ENTER. For example, type:
