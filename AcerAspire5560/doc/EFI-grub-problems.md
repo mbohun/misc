@@ -1,4 +1,4 @@
-## Weekend of linux distro installation attempts on acer ASPIRE 5560
+### Weekend of linux distro installation attempts on acer ASPIRE 5560
 
 **Fedora 17** first linux distro installed after I bought the laptop back in October 2012; installed OK.
 
