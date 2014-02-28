@@ -21,4 +21,13 @@ installer work fine; selected `grub2-efi` bootloader; after the USB/DVD installe
 # and
 cp /boot/efi/EFI/opensuse/grubx64.efi /boot/efi/EFI/BOOT/bootx64.efi
 ```
+
+#### openSUSE 13.1
+without me actually asking for it, the installed `openSUSE 12.3` updated itself to `openSUSE 13.1` (i just did the usual `sudo zypper up`),
+and after the update finished and i rebooted the machine, i ended up in grub `rescue>` prompt :-) 
+however booting from a rescue CD, mounitng the `EFI` partition and repeating the above copy, fixed the problem:
+```
+cp /boot/efi/EFI/opensuse/grubx64.efi /boot/efi/EFI/BOOT/bootx64.efi
+```
+
 https://plus.google.com/+MartinBohun/posts/G2KTFSdxc2D
