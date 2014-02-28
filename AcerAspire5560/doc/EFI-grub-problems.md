@@ -3,7 +3,7 @@
 #### Fedora 17
 first linux distro installed after I bought the laptop back in October 2012; installed OK.
 
-#### Fedora 18
+#### ~~Fedora 18~~
 clear 'winner' - the installer goes into kernel panic instantly after grub menu selection; might work with `vga=normal` if the panic is in the framebuffer/video driver? didn't bother to test.  
 
 #### ~~Fedora 19~~
