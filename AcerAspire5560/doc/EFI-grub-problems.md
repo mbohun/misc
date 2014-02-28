@@ -17,8 +17,8 @@ installer work fine; selected `grub2-efi` bootloader; after the USB/DVD installe
 /boot/efi/EFI/opensuse
 /boot/efi/EFI/opensuse/grubx64.efi
 
-# had to create manually: _/boot/efi/EFI/BOOT_
-# and
+# had to create manually the /boot/efi/EFI/BOOT dir, and:
+#
 cp /boot/efi/EFI/opensuse/grubx64.efi /boot/efi/EFI/BOOT/bootx64.efi
 ```
 
