@@ -319,3 +319,11 @@ OpenGL extensions:
 0x0cb  0 tc  0  32  0    y .  11 11 10  0 .  .  0 24  0  0  0  0  0  0 0 None
 0x0cb  0 tc  0  32  0    . .  11 11 10  0 .  .  0 24  0  0  0  0  0  0 0 None
 
+# Also the AMD radeon Catalyst driver installs fglrxinfo and fgl_glxgears;
+# the output of fglrxinfo looks something like:
+
+mbohun@firewolf:~> fglrxinfo 
+display: :0  screen: 0
+OpenGL vendor string: Advanced Micro Devices, Inc.
+OpenGL renderer string: AMD Radeon HD 6520G
+OpenGL version string: 4.3.12798 Compatibility Profile Context 13.35.1005
