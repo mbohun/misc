@@ -25,9 +25,7 @@
 
 Access an EFI Partition
 
-At a command prompt, type mountvol drive letter: /s, and then press ENTER. For example, type:
-mountvol z: /s
-Type mountvol, and then press ENTER.
+At a command prompt, type mountvol drive letter: /s, and then press ENTER. For example, type: `mountvol z: /s`
 
 You should now be able to see and access the mounted EFI partition.
 
