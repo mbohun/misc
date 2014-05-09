@@ -1,7 +1,7 @@
 ### Weekend of linux distro installation attempts on acer ASPIRE 5560
 
 #### Fedora 17
-first linux distro installed after I bought the laptop back in October 2012; installed OK (although the python? based installer came with some errors and joyfully *erased (the pre-installed) windoze7*)  
+first linux distro installed after I bought the laptop back in October 2012; installed OK (although the python? based installer came with some errors and joyfully **erased (the pre-installed) windoze7**)  
 
 #### ~~Fedora 18~~
 clear 'winner' - the installer goes into kernel panic instantly after grub menu selection; might work with `vga=normal` if the panic is in the framebuffer/video driver? didn't bother to test.  
