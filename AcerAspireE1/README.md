@@ -23,7 +23,7 @@
 
  ---
 
-Access an EFI Partition
+Access the EFI Partition
 
 At a command prompt, type mountvol drive letter: /s, and then press ENTER. For example, type: `mountvol z: /s`
 
