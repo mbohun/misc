@@ -1,0 +1,48 @@
+#rebuilding openSUSE13.1 -> 
+
+firewolf:/home/mbohun # cat /etc/os-release 
+NAME=openSUSE
+VERSION="13.1 (Bottle)"
+VERSION_ID="13.1"
+PRETTY_NAME="openSUSE 13.1 (Bottle) (x86_64)"
+ID=opensuse
+ANSI_COLOR="0;32"
+CPE_NAME="cpe:/o:opensuse:opensuse:13.1"
+BUG_REPORT_URL="https://bugs.opensuse.org"
+HOME_URL="https://opensuse.org/"
+ID_LIKE="suse"
+
+firewolf:/home/mbohun # cat /etc/*rel*
+LSB_VERSION="core-2.0-noarch:core-3.2-noarch:core-4.0-noarch:core-2.0-x86_64:core-3.2-x86_64:core-4.0-x86_64"
+cat: /etc/lsb-release.d: Is a directory
+NAME=openSUSE
+VERSION="13.1 (Bottle)"
+VERSION_ID="13.1"
+PRETTY_NAME="openSUSE 13.1 (Bottle) (x86_64)"
+ID=opensuse
+ANSI_COLOR="0;32"
+CPE_NAME="cpe:/o:opensuse:opensuse:13.1"
+BUG_REPORT_URL="https://bugs.opensuse.org"
+HOME_URL="https://opensuse.org/"
+ID_LIKE="suse"
+openSUSE 13.1 (x86_64)
+VERSION = 13.1
+CODENAME = Bottle
+# /etc/SuSE-release is deprecated and will be removed in the future, use /etc/os-release instead
+
+---
+one of the biggest problems with the current openSUSE 13.1 is the "default" size (20G) of the / partition
+
+firewolf:/home/mbohun # df -hT
+Filesystem     Type      Size  Used Avail Use% Mounted on
+devtmpfs       devtmpfs  3.7G   16K  3.7G   1% /dev
+tmpfs          tmpfs     3.7G  444K  3.7G   1% /dev/shm
+tmpfs          tmpfs     3.7G   11M  3.7G   1% /run
+/dev/sda3      ext4       20G   19G   69M 100% /
+tmpfs          tmpfs     3.7G     0  3.7G   0% /sys/fs/cgroup
+tmpfs          tmpfs     3.7G   28K  3.7G   1% /tmp
+tmpfs          tmpfs     3.7G   11M  3.7G   1% /var/run
+tmpfs          tmpfs     3.7G   11M  3.7G   1% /var/lock
+/dev/sda1      vfat      156M  252K  156M   1% /boot/efi
+/dev/sda4      ext4      666G  213G  453G  33% /home
+
