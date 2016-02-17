@@ -45,3 +45,48 @@ tmpfs          tmpfs     3.7G   11M  3.7G   1% /var/lock
 /dev/sda1      vfat      156M  252K  156M   1% /boot/efi
 /dev/sda4      ext4      666G  213G  453G  33% /home
 
+# after cleanup (with only one kernel installed! i suspect some systemd logs crap, because it was apx. 4-500mb):
+# NOTE: /opt is already moved and symlinked to /home/opt !
+
+firewolf:/boot # df -hT
+Filesystem     Type      Size  Used Avail Use% Mounted on
+devtmpfs       devtmpfs  3.7G   16K  3.7G   1% /dev
+tmpfs          tmpfs     3.7G  444K  3.7G   1% /dev/shm
+tmpfs          tmpfs     3.7G   11M  3.7G   1% /run
+/dev/sda3      ext4       20G   19G  266M  99% /
+tmpfs          tmpfs     3.7G     0  3.7G   0% /sys/fs/cgroup
+tmpfs          tmpfs     3.7G   28K  3.7G   1% /tmp
+tmpfs          tmpfs     3.7G   11M  3.7G   1% /var/run
+tmpfs          tmpfs     3.7G   11M  3.7G   1% /var/lock
+/dev/sda1      vfat      156M  252K  156M   1% /boot/efi
+/dev/sda4      ext4      666G  214G  452G  33% /home
+
+#
+firewolf:/boot # ls -lah /
+total 212K
+drwxr-xr-x  23 root root 4.0K Feb 18 02:03 .
+drwxr-xr-x  23 root root 4.0K Feb 18 02:03 ..
+drwxr-xr-x   3 root root 4.0K Dec 10  2014 .AMD
+drwxr-xr-x   2 root root 4.0K Feb  5 23:04 bin
+drwxr-xr-x   5 root root 4.0K Feb 18 03:40 boot
+drwxr-xr-x  22 root root 4.2K Feb 18 02:02 dev
+drwxr-xr-x 153 root root  12K Feb 18 02:03 etc
+drwxr-xr-x   5 root root 4.0K Feb  6  2015 home
+drwxr-xr-x  14 root root 4.0K Jan 25 00:09 lib
+drwxr-xr-x   7 root root  12K Jan 25 00:09 lib64
+drwx------   2 root root  16K Mar  7  2013 lost+found
+drwxr-xr-x   2 root root 4.0K Sep 28  2013 media
+drwxr-xr-x   2 root root 4.0K Sep 28  2013 mnt
+lrwxrwxrwx   1 root root    9 Feb  6  2015 opt -> /home/opt
+dr-xr-xr-x 186 root root    0 Feb 18 01:58 proc
+-rw-r--r--   1 root root 102K Feb 18 02:03 .readahead
+drwx------  28 root root 4.0K Feb  5 23:19 root
+drwxr-xr-x  32 root root  760 Feb 18 02:03 run
+drwxr-xr-x   2 root root  12K Feb  5 23:05 sbin
+drwxr-xr-x   2 root root 4.0K Sep 28  2013 selinux
+drwxr-xr-x   6 root root 4.0K Feb 16  2014 srv
+dr-xr-xr-x  12 root root    0 Feb 18 03:47 sys
+drwxrwxrwt  14 root root  340 Feb 18 03:45 tmp
+drwxr-xr-x  14 root root 4.0K Feb 16  2014 usr
+drwxr-xr-x  15 root root 4.0K Feb 16  2014 var
+
