@@ -1,4 +1,4 @@
-#rebuilding openSUSE13.1 -> 
+# rebuilding openSUSE13.1 -> openSUSE Leap 42.1
 
 firewolf:/home/mbohun # cat /etc/os-release 
 NAME=openSUSE
@@ -30,8 +30,7 @@ VERSION = 13.1
 CODENAME = Bottle
 # /etc/SuSE-release is deprecated and will be removed in the future, use /etc/os-release instead
 
----
-one of the biggest problems with the current openSUSE 13.1 is the "default" size (20G) of the / partition
+# one of the biggest problems with the current openSUSE 13.1 is the "default" size (20G) of the / partition
 
 firewolf:/home/mbohun # df -hT
 Filesystem     Type      Size  Used Avail Use% Mounted on
