@@ -1,0 +1,13 @@
+!Xft.dpi:                      96
+Xft.rgba:                      rgb
+Xft.antialias:                 true
+Xft.hinting:                   true
+Xft.hintstyle:                 hintfull
+
+XTerm*background:              black
+XTerm*foreground:              white
+XTterm*utf8:                   2
+XTerm*termName:                xterm-256color
+!XTerm*faceName:                xft:Dejavu Sans Mono:pixelsize=1
+XTerm.VT100.geometry:          120x29
+XTerm*saveLines:               9999
