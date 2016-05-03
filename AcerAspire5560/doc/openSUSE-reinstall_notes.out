@@ -1,5 +1,11 @@
-# rebuilding openSUSE13.1 -> openSUSE Leap 42.1
+# This laptop has a problem to propoerly shutdown/reboot in GPT mode, converting the hdd into (legacy) MBR mode
+# apparently fixes this problem. (NOTE: I did upgrade the BIOS to the latest available, but it did not fix the reboot
+# issue.)
+- http://www.tomsguide.com/forum/82200-35-acer-aspire-5560g-hangs-restart
+- http://community.acer.com/t5/Legacy-Laptops-and-Netbooks/Acer-Aspire-5560G-Shutdown-Reboot-Issue/td-p/352632
+- http://unix.stackexchange.com/questions/61142/remove-gpt-default-back-to-mbr
 
+# rebuilding openSUSE13.1 -> openSUSE Leap 42.1 / openSUSE Tumbleweed
 firewolf:/home/mbohun # cat /etc/os-release 
 NAME=openSUSE
 VERSION="13.1 (Bottle)"
