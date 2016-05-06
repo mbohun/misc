@@ -4,6 +4,7 @@
 - http://www.tomsguide.com/forum/82200-35-acer-aspire-5560g-hangs-restart
 - http://community.acer.com/t5/Legacy-Laptops-and-Netbooks/Acer-Aspire-5560G-Shutdown-Reboot-Issue/td-p/352632
 - http://unix.stackexchange.com/questions/61142/remove-gpt-default-back-to-mbr
+- http://www.rodsbooks.com/gdisk/mbr2gpt.html "Converting from GPT to MBR"
 
 # rebuilding openSUSE13.1 -> openSUSE Leap 42.1 / openSUSE Tumbleweed
 firewolf:/home/mbohun # cat /etc/os-release 
