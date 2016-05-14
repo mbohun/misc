@@ -1,3 +1,7 @@
+# WARNING!!! as of 14th of Ma7 2016 AMD fglrx does *NOT* support the "too new" version of x.org used in Tumbleweed
+#            if you want to use fglrx (play games) you will have to use openSUSE LEAP 42.1
+- https://lizards.opensuse.org/2016/03/17/amd-catalyst-15-12-for-opensuse-new-makerpm-amd-script-is-available/
+
 # This laptop has a problem to propoerly shutdown/reboot in GPT mode, converting the hdd into (legacy) MBR mode
 # apparently fixes this problem. (NOTE: I did upgrade the BIOS to the latest available, but it did not fix the reboot
 # issue.)
