@@ -97,3 +97,28 @@ drwxrwxrwt  14 root root  340 Feb 18 03:45 tmp
 drwxr-xr-x  14 root root 4.0K Feb 16  2014 usr
 drwxr-xr-x  15 root root 4.0K Feb 16  2014 var
 
+---
+
+blue:/home/mbohun/src/kernel/linux # uname -a
+Linux blue 4.5.3-1-default #1 SMP PREEMPT Thu May 5 05:03:39 UTC 2016 (d29747f) x86_64 x86_64 x86_64 GNU/Linux
+
+zcat /proc/config.gz > .config
+
+make oldconfig
+
+make menuconfig
+
+mbohun@blue:~/src/kernel/linux> diff .config.old .config
+55c55
+< CONFIG_LOCALVERSION="-1-default"
+---
+> CONFIG_LOCALVERSION="-00"
+
+time make -j4
+
+real    60m21.629s
+user    195m27.900s
+sys     17m3.876s
+mbohun@blue:~/src/kernel/linux>
+
+---
