@@ -122,3 +122,10 @@ sys     17m3.876s
 mbohun@blue:~/src/kernel/linux>
 
 ---
+make modules_install
+
+  INSTALL /lib/firmware/yam/1200.bin
+  INSTALL /lib/firmware/yam/9600.bin
+  DEPMOD  4.1.24-00
+blue:/home/mbohun/src/kernel/linux # du -hs /lib/modules/4.1.24-00/
+2.4G    /lib/modules/4.1.24-00/
