@@ -1,0 +1,2 @@
+- add `intel_pstate=disable` to kernel boot args in order to use `acpi_cpufreq` driver
+- TODO
