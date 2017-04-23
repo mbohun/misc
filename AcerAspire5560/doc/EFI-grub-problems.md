@@ -30,4 +30,11 @@ however booting from a rescue CD, mounting the `EFI` partition and repeating the
 cp /boot/efi/EFI/opensuse/grubx64.efi /boot/efi/EFI/BOOT/bootx64.efi
 ```
 
+#### openSUSE Tumbleweed (April 2017)
+... after the instalation i rebooted the machine, i ended up in grub `rescue>` prompt :-) 
+however booting from a rescue CD, mounting the `EFI` partition and repeating the above copy, fixed the problem:
+```
+cp /boot/efi/EFI/opensuse/grubx64.efi /boot/efi/EFI/BOOT/bootx64.efi
+```
+
 https://plus.google.com/+MartinBohun/posts/G2KTFSdxc2D
