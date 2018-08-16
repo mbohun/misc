@@ -1,9 +1,24 @@
 `intel_pstate` (default on Intel CPU-s?)
 ```
-
+mbohun@linux-cr70:~> cpupower frequency-info
+analyzing CPU 0:
+  driver: intel_pstate
+  CPUs which run at the same hardware frequency: Not Available
+  CPUs which need to have their frequency coordinated by software: Not Available
+  maximum transition latency:  Cannot determine or is not supported.
+  hardware limits: 800 MHz - 2.60 GHz
+  available cpufreq governors: performance
+  current policy: frequency should be within 800 MHz and 2.60 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency: Unable to call hardware
+  current CPU frequency: 879 MHz (asserted by call to kernel)
+  boost state support:
+    Supported: yes
+    Active: yes
 ```
 
-add `intel_pstate=disable` to kernel boot args in order to use `acpi_cpufreq` driver
+add `intel_pstate=disable` to grub2 / kernel boot args in order to use the `acpi_cpufreq` driver
 ```
 mbohun@linux-cr70:~> cpupower frequency-info
 analyzing CPU 0:
